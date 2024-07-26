@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <script src="https://kit.fontawesome.com/11b6b9f3e3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/utils.css">
+</head>
+<body class="d-f f-l">
+    <div class="container b-b">
+        <h2>Currency Converter</h2>
+        <form action="" id="form" >
+            <div class="amount m-t">
+                <p>Enter amount</p>
+                <input type="text" value="100" class="b-b f-l">
+            </div>
+            <div class="dropdown d-f m-t">
+                <div class="from width">
+                    <p>From</p>
+                    <div class="selectContainer d-f b-b">
+                                                  
+                           <img src="https://flagsapi.com/US/flat/64.png">
+                        
+                        <select name="from" id="selector"></select>
+                    </div>
+
+                </div>
+                <div class="icon">
+
+                    <i class="fa-solid fa-arrow-right-arrow-left"></i>
+                </div>
+                <div class="to width">
+                    <p>To</p>
+                    <div class="selectContainer d-f b-b">
+
+                        <img src="https://flagsapi.com/PK/flat/64.png">
+                        
+                        <select name="to" id="selector"></select>
+                    </div>
+                </div>
+            </div>
+            <div class="msg">1USD = 300PKR</div>
+            <button class="b-b f-l m-t">Get Exchange Rate</button>
+        </form>
+    </div>
+    <script src="/codes.js"></script>
+    <script src="/style.js"></script>
+</body>
+</html>
